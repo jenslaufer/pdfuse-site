@@ -9,9 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.18",
-    "tailwindcss": "^4.1.18",
-    "vue": "^3.5.24"
+    "@fontsource-variable/merriweather": "^5.2.6",
+    "@fontsource-variable/montserrat": "^5.2.8",
+    "@solytics/vue-footer-widgets": "github:jenslaufer/vue-footer-widgets",
+    "@unhead/vue": "^2.0.19",
+    "@tailwindcss/vite": "^4.1.11",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "tailwindcss": "^4.1.11",
+    "vue": "^3.5.13",
+    "vue-router": "^4.4.5",
+    "vue3-spinners": "^1.2.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",
