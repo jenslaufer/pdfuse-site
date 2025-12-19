@@ -4,7 +4,7 @@ import App from './App.vue'
 import { createHead } from '@unhead/vue/client'
 import { createWebHashHistory, createRouter } from 'vue-router'
 
-export const router = createRouter({
+const router = createRouter({
     history: createWebHashHistory(),
     routes: [
         {
