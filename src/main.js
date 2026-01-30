@@ -11,7 +11,7 @@ const router = createRouter({
             path: '',
             component: () => import('./pages/Home.vue'),
             props: {
-                badge: 'AltMatch.app • Chrome Extension for modifying PDFs',
+                badge: 'PDFuse.app • Chrome Extension for modifying PDFs',
                 headline: 'Stop Uploading Sensitive PDFs to Random Websites',
                 uvp: 'PDFuse splits, merges, and manipulates PDFs directly in Chrome—your documents never leave your browser. Fast, private, secure.',
                 cta: 'Add PDFuse.app to Chrome',
