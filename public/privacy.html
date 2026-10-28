@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy policy – PDFuse</title>
+  <meta name="description" content="How the PDFuse Chrome extension handles your files and data: files never leave your browser; PDFuse Pro is sold through ExtensionPay." />
+  <link rel="canonical" href="https://pdfuse.app/privacy.html" />
+  <!-- Source of truth: PRIVACY.md in the PDFuse extension repo. Change both together. -->
+  <style>
+    :root { --brand0: #372528; --brand2: #7B1B38; --ink: #1e2430; --mute: #5b6472; --line: #e3e6eb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #fff; color: var(--ink);
+      font: 17px/1.65 "Montserrat", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+    header { background: var(--brand0); color: #f1f3f6; }
+    header div, main { max-width: 42rem; margin: 0 auto; padding: 0 1.25rem; }
+    header div { padding-block: 1.1rem; display: flex; justify-content: space-between; align-items: baseline; }
+    header a { color: inherit; text-decoration: none; font-weight: 600; letter-spacing: .02em; }
+    main { padding-block: 2.5rem 4rem; }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .25rem; }
+    .updated { color: var(--mute); margin: 0 0 2rem; font-size: .95rem; }
+    h2 { font-size: 1.15rem; margin: 2.2rem 0 .5rem; padding-top: 1.2rem; border-top: 1px solid var(--line); }
+    p { margin: 0 0 1rem; }
+    a { color: var(--brand2); }
+    address { font-style: normal; }
+  </style>
+</head>
+<body>
+  <header><div><a href="/">PDFuse</a><span>Privacy</span></div></header>
+  <main>
+    <h1>PDFuse privacy policy</h1>
+    <p class="updated">Last updated: 2026-10-28</p>
+
+    <h2>Your files</h2>
+    <p>PDFuse merges, splits and edits PDFs, turns images into PDFs and exports PDF pages as images, inside your browser. Your files are never uploaded, stored on a server, or sent to anyone, including us.</p>
+
+    <h2>PDFuse Pro</h2>
+    <p>PDFuse Pro is sold through ExtensionPay (extensionpay.com), with payments processed by Stripe. If you never open the payment page, PDFuse never contacts ExtensionPay. Once you have, PDFuse checks your plan status whenever the panel opens or gets focus.</p>
+    <p>When you open the payment page, PDFuse requests a random key for your browser from ExtensionPay. To check whether your Pro plan is active, PDFuse sends this key to ExtensionPay. Like any web request, this reveals your IP address and browser type to ExtensionPay. It never contains file content or file names.</p>
+    <p>When you buy Pro, ExtensionPay and Stripe receive what you enter on their payment page, such as your email address and payment details. ExtensionPay then links your key to your email address and plan, and keeps them on its servers. PDFuse never sees your card details. See <a href="https://stripe.com/privacy">Stripe's privacy policy</a>.</p>
+
+    <h2>What PDFuse stores</h2>
+    <p>PDFuse stores the ExtensionPay key, your plan status, the install time and, after a purchase, your email address in the extension's sync storage. If Chrome Sync is on, Chrome copies these to your other devices through your Google account, and PDFuse on those devices checks your plan status too. Uninstalling PDFuse deletes them from that browser; ExtensionPay keeps its own copy as described above.</p>
+
+    <h2>No tracking</h2>
+    <p>PDFuse contains no analytics, no ads and no tracking. This page sets no cookies.</p>
+
+    <h2>Contact</h2>
+    <address>Solytics GmbH<br />Hörsteiner Str. 20a<br />63791 Karlstein a. Main<br />Germany</address>
+  </main>
+</body>
+</html>
